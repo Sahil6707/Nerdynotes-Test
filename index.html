@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Nerdy Notes</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="logo-container">
+        <img src="images/The-Logo.png" alt="Nerdy Notes Logo" class="logo" />  
+        <h1 id="header-text">Nerdy Notes</h1>
+        <span class="college-badge">NIT Srinagar</span>
+      </div>
+      <button id="themeToggle" class="theme-toggle">
+        <span class="icon"></span>
+      </button>
+    </header>
+    <!-- About Section -->
+    <section class="about">
+      <div class="about-container">
+        <h2 class="about-heading" >About Nerdy Notes</h2>
+
+        <p class="about-text">
+          Nerdy Notes is a student-driven platform built exclusively for NIT
+          Srinagar students. We provide clean, organized, semester-wise notes to
+          make exam preparation simple and efficient.
+        </p>
+
+        <div class="about-features">
+          <div style="font-family: poppins;" class="feature">✔ Free Semester Notes</div>
+          <div style="font-family: poppins;" class="feature">✔ Organized Subject-wise PDFs</div>
+          <div class="feature">✔ Exam-Focused Important Questions</div>
+        </div>
+      </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- Stats  -->
+
+   
+
+<div class="stats">
+    <div class="stat-box">
+        <h3 class="counter" data-target="50">0</h3>
+        <p>Notes</p>
+    </div>
+
+    <div class="stat-box">
+        <h3 class="counter" data-target="10">0</h3>
+        <p>Subjects</p>
+    </div>
+
+    <div class="stat-box">
+        <h3 class="counter" data-target="90">0</h3>
+        <p>Students</p>
+    </div>
+</div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-content">
+        <h2>Find Your Semester Notes</h2>
+        <p class="hero-subtitle">
+          Organized semester-wise notes for NIT Srinagar students.
+        </p>
+  
+
+        <input
+          type="text"
+          id="searchInput"
+          placeholder="Search by subject or Year..."
+        />
+
+        <div class="filters">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="Year 1">1st Year</button>
+          <button class="filter-btn" data-filter="Year 2">2nd Year</button>
+          <button class="filter-btn" data-filter="Year 3">3rd Year</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Notes Section -->
+    <section class="notes-container">
+        <div class="note-card"
+     data-category="Year 1"
+     data-link="maths-sem1.html">
+    <h3>Engineering Mathematics</h3>
+      </div>
+
+       <div class="note-card"
+     data-category="Year 1"
+     data-link="physics-sem1.html">
+    <h3>Engineering Physics</h3>
+      </div>
+      
+      <div class="note-card" data-category="Year 1">
+        <h3>Engineering Mechanics</h3>
+      </div>
+
+      <div class="note-card" data-category="Year 1">
+        <h3>Engineering Chemistry </h3>
+      </div>
+
+      <div class="note-card" data-category="Year 1">
+        <h3>Basic Electrical Engineering</h3>
+      </div>
+
+      <div class="note-card" data-category="Year 1">
+        <h3>Advance English And Communication Skills</h3>
+      </div>
+
+    </section>
+
+    <section class="upgrade-divider">
+  <h3>Want More Than Just Notes?</h3>
+  <p>Go deeper with exam-focused premium material.</p>
+</section>
+
+
+    <div class="bg-animation"></div>
+  
+  
+    <section class="premium">
+      
+      <div class="badge">NEW • PREMIUM</div>
+  <h2>Unlock Premium Notes</h2>
+  <p>Next-level preparation starts here.</p>
+
+  <div class="premium-cards">
+    <div class="card">
+      <h3>Solved PYQs</h3>
+      <p>Detailed solutions of previous year questions.</p>
+    </div>
+
+    <div class="card">
+      <h3>Important Questions</h3>
+      <p>Frequently repeated and exam-focused questions.</p>
+    </div>
+
+    <div class="card">
+      <h3>Revision Kit</h3>
+      <p>Quick revision sheets before exams.</p>
+    </div>
+  </div>
+
+  <a id ="prem-btn" href="premium.html" class="premium-btn">
+  Explore Premium
+</a>
+
+<div id="prem-divider"></div>
+
+<!-- feedback section -->
+  <section class="feedback">
+  <h2># What Students Say -</h2>
+
+  <div class="feedback-card">
+    <div class="profile">AY</div>
+    <div class="content">
+      <h4>Ankush Yadav</h4>
+      <span>2nd Semester</span>
+      <p>
+        The premium notes are very well structured and helped me score better in internals.
+      </p>
+      
+      
+    </div>
+  </div>
+
+  <div class="feedback-card">
+    <div class="profile">AK</div>
+
+    <div class="content">
+      <h4>Akshay Krishan</h4>
+      <span>1st Semester</span>
+      <p>
+        Clean explanations and exam-focused topics. Totally worth it.
+      </p>
+      
+      
+    </div>
+  </div>
+</section>
+</section>
+
+<footer class="footer">
+  <div class="footer-container">
+
+    <div class="footer-col">
+      <h3 class="logo-footer">NerdyNotes</h3>
+      <p>Helping students prepare smarter and score better.</p>
+    </div>
+
+    <div class="footer-col">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="#header-text">Home</a></li>
+        <li><a href="#searchInput">Free Notes</a></li>
+        <li><a href="#prem-btn">Premium</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h4>Resources</h4>
+      <ul>
+        <li><a href="privacy_policy.html">Privacy Policy</a></li>
+        <li><a href="term.html">Terms</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h4>Contact</h4>
+      <p>info.nerdynotes@gmail.com</p>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2026 NerdyNotes. All rights reserved.</p>
+  </div>
+</footer>
+
+    <script src="script.js" defer></script>
+
+  </body>
+</html>

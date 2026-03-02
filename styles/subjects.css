@@ -1,0 +1,205 @@
+
+/* maths html css */
+/* Chapters Section */
+.chapters-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 60px 20px 100px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+}
+
+/* Card */
+.chapter-card {
+    padding: 30px;
+    border-radius: 20px;
+    transition: 0.3s ease;
+    text-align: left;
+    border: 1px solid var(--border-color);
+}
+
+/* Dark Mode */
+body.dark .chapter-card {
+    background: rgba(255, 255, 255, 0.04);
+}
+
+/* Light Mode */
+body.light .chapter-card {
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+    color: #1e293b;
+    transition: all 0.3s ease;
+}
+
+body.light .chapter-card button {
+    background: #2563eb;
+    color: white;
+}
+
+body.light .chapter-card button:hover {
+    background: #1d4ed8;
+}
+
+/* Hover */
+.chapter-card:hover {
+    transform: translateY(-6px);
+}
+
+body.light .chapter-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+}
+
+/* Title */
+.chapter-card h3 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+/* Button */
+.view-btn {
+    background-color: #ffffff;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+    transition: 0.3s ease;
+    display: inline-block;
+    padding: 8px 18px;    
+    text-decoration: none;
+    font-size: 14px;
+}
+
+/* Dark Button */
+body.dark .view-btn {
+    background: linear-gradient(90deg, #4da3ff, #7c5cff);
+    color: white;
+}
+
+/* Light Button */
+body.light .view-btn {
+    background: #2563eb;
+    color: white;
+}
+body.light .view-btn:hover {
+    background: #1d4ed8;
+}
+
+.view-btn:hover {
+    opacity: 0.85;
+    font-size: 15px;
+}
+.subject-hero {
+    padding: 30px 20px 10px;
+    text-align: center;
+}
+
+.subject-hero h2 {
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    letter-spacing: 0.5px;
+}
+
+.subject-hero p {
+    font-size: 16px;
+    opacity: 0.7;
+}
+
+body.light .subject-hero h2 {
+    color: #1e293b;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.subject-hero h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 38px;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    margin-bottom: 12px;
+}
+body.light .subject-hero h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 38px;
+    color: #0f172a;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    margin-bottom: 12px;
+}
+
+.subject-hero p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+      max-width: 1100px;
+    margin: 0 auto;
+    padding: 30px 20px 40px;
+    text-align: center;
+    position: relative;
+}
+
+body.light .subject-hero p {
+    color: #64748b;
+     font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+      max-width: 1100px;
+    margin: 0 auto;
+    padding: 30px 20px 40px;
+    text-align: center;
+    position: relative;
+}
+
+.card-blue {
+    background: linear-gradient(145deg, rgba(77,163,255,0.2), rgba(77,163,255,0.05));
+    border-color: rgba(77,163,255,0.4);
+}
+
+.card-purple {
+    background: linear-gradient(145deg, rgba(124,92,255,0.2), rgba(124,92,255,0.05));
+    border-color: rgba(124,92,255,0.4);
+}
+
+.card-teal {
+    background: linear-gradient(145deg, rgba(0,200,200,0.2), rgba(0,200,200,0.05));
+    border-color: rgba(0,200,200,0.4);
+}
+
+
+/* Back button row */
+.subject-top {
+    text-align: left;
+    margin-bottom: 25px;
+    margin-left: 20px;
+}
+
+.back-btn {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    opacity: 0.7;
+    transition: 0.3s ease;
+    color: #7c5cff;
+     text-transform: uppercase;
+    letter-spacing: 0.5px;
+    display: inline-block;
+    margin-bottom: 20px;
+
+}
+
+body.light-mode .back-btn {
+    color: #b68b2e;
+}
+
+.back-btn:hover {
+    opacity: 1;
+    transform: translateX(-4px);
+}
